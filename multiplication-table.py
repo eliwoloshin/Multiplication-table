@@ -1,7 +1,7 @@
 """
 multiplication-table.py
 Author: Eli Woloshin
-Credit: my brain, Ethan Adner, stackoverflow website
+Credit: my brain, Ethan Adner, stackoverflow website, Will
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
@@ -28,7 +28,7 @@ width = int(input("Width of multiplication table: "))
 height = int(input("Height of multiplication table: "))
 
 
-for x in range(1, width):
+for x in range(1, height+1):
     print("")
-    for y in range(1, height):
+    for y in range(1, width+1):
         print("{0:>3}".format(x*y), "",end="")
