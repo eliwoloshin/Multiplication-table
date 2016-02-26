@@ -27,6 +27,7 @@ width = int(input("Width of multiplication table: "))
 
 height = int(input("Height of multiplication table: "))
 
-print("The number is: {0:>3}".format(1))         # Prints "The number is:   1"
-print("The number is: {0:>3}".format(12))        # Prints "The number is:  12"
-print("The number is: {0:>3}".format(123))       # Prints "The number is: 123"
+
+for x in range(1, width):
+    for y in range(1, height):
+        print("{0:>3}".format(x*y), " ",end="")
