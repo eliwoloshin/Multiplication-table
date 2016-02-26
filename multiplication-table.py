@@ -1,7 +1,7 @@
 """
 multiplication-table.py
 Author: Eli Woloshin
-Credit: my brain, Ethan Adner
+Credit: my brain, Ethan Adner, stackoverflow website
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
